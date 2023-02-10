@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+   
+}
+/*------------------body css-------------------------*/
+body{
+    background-image:linear-gradient(to right, #155b93,#159559);
+    width:95%;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.left{
+    background-color: white;
+    height:550px;
+    width:55%;
+    margin-right: 200px;
+    margin: 0 auto;
+}
+.content{
+    background-color:#fff;
+    box-shadow: 10px 20 25px rgb(0,0,.3);
+    border-radius: 5px;
+    overflow: hidden;
+    width:500px;
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+    padding: 30px 60px;
+    margin:0 auto;
+}
+/* ----------------form ratio button css------------------*/
+p{
+    color: #155b93; 
+    display:inline-block;
+    font-size: 16px; 
+}
+.border{
+    border:2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:90%
+}
+/*------------------form css starts here-------------------------*/
+.form{
+    padding:30px 40px;
+
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+/*------------------form label css here-------------------------*/
+.form-control label{
+    display:inline-block;
+    margin-bottom: 5px;
+    color: #155b93;
+}
+.form-control select[id=State]{
+    width:90%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:2px solid gray;
+    border-radius: 5px;
+
+}
+/*------------------form input css here-------------------------*/
+.form-control input{
+    border:2px solid gray;
+    border-radius: 5px;
+    display:block;
+    font-size: 12px;
+    padding: 10px;
+    width: 90%;
+}
+.form-control input:focus{
+    outline:none;
+    border-color:blueviolet;
+}
+/*------------------Form button css here-------------------------*/
+#able{
+    border: 2px solid gray;
+    background-image:linear-gradient(to right, #155b93,#159559) ;
+    font-size: 20px;
+    padding: 13px 50px;
+    width:65%;
+    margin-left: 10%;    
+}
+/* ----------------Form icon css here------------------------ */
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    top:35px;
+    right:60px;
+    z-index:1;
+    width:25px;
+    height:25px;
+}
+small{
+    color:red;
+}
+/* table with json */
+table, th, td 
+{
+    border: solid 1px #ddd;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th { 
+    font-weight:bold;
+}
+    
+
+
+
+	
+	

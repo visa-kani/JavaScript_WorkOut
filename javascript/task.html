@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript task</title>
+    <link rel="stylesheet" href="./task.css">
+    <script src="task.js"></script>
+</head>
+<body>
+    <!-- JS task 1 validation located in form file-->
+    <!--------------JS Task 2 String reverse------------------>
+        <div class="task">
+            <h1>2.String Reverse</h1>
+            <div class="po">
+                <p>Enter a sentence in the input:</p>
+                <input type="text" id="stringre">
+                <div class="right">
+                    <div class="result" id="result1"></div>
+                </div>
+                <button onclick="stringreverse()">check it</button>
+                
+            </div>
+        </div>
+        <hr>
+    <!---------------JS Task 3 array------------------------->  
+    <div class="task">
+        <h1>3.Array</h1>
+        <input type="text" id="array1">
+        <div class="right">
+            <div class="resultcon">
+                <div id="result2"></div>
+                <div id="result02"></div>
+                <div id="result002"></div>
+            </div>
+        </div>
+        <input type="text" id="array2"><br>
+        <button onclick="arraycombine()">check it</button>
+       
+    </div>
+    <hr> 
+    <!---------------JS Task 4 incre/decre input----------------->
+    <div class="task">
+        <h1>4.Increase/ decrease input</h1>
+        <input type="text" id="increase" oninput="inputlength()" placeholder="here here!!">
+    </div>
+    <hr>
+    <!-----------------JS Task 5 Anagrams  ----------------------->
+    <div class="task">
+        <h1>5.Anagrams</h1> 
+        <input type="text" id="input1">
+        <input type="text" id="input2">
+        <div class="right">
+            <div id="result4"></div>
+        </div><br>
+        <button onclick="anagram()">check it</button>
+    </div>
+    <hr>
+    <!-------------JS Task 6 vowels and consontants--------------->
+    <div class="task">
+        <h1>6.Vowels and Consontants</h1>
+        <input type="text" id="voco">
+        <button onclick="covo()">check it</button>
+        <div class="right">
+            <div  id="result5"></div>
+            <div  id="result6"></div>
+        </div>  
+    </div>
+    <hr>
+    <!-------------------- JS Task 7 is closure--------------------------->
+    <div class="task">
+        <h1>7.Closure function</h1>
+        <button onclick="closure()">Check it</button>
+        <div class="right">
+            <div id="result36">26</div>
+        </div>
+    </div>
+    <hr>
+    <!-------------JS Task 8 standard display date and time---------------->
+    <div class="task">
+        <h1>8.display standard date and time</h1>
+        <button onclick="displayd()">check it</button>
+        <div class="right">
+            <div id="result7"></div>
+        </div>
+    </div>
+    <hr>
+    <!--------------JS Task 9 check the leap year--------------------->
+    <div class="task">
+        <h1>9.check the leap year</h1>
+        <input type="text" id="leap">
+        <button onclick="leapyear()">check it</button>
+        <div class="right">
+            <div id="result8"></div> 
+        </div>
+    </div>
+    <hr>
+     <!-------------JS Task 10 current display date and time---------------->
+    <div class="task">
+        <h1>10.display Current date and time</h1>
+        <button onclick="currentdateandtime()">check it</button>
+        <div class="right">
+            <div id="result9"></div> 
+        </div>
+    </div>
+    <hr>
+     <!-------------JS Task 11 compare the two dates----------------->
+    <div class="task">
+        <h1>11.Comparasion of two dates</h1>
+        <div class="right">
+            <div id="result10"></div> 
+        </div>
+        <input type="date" id="date1">
+        <input type="date" id="date2"><br>
+        <button onclick="compare()">check it</button>
+    </div>
+    <hr>
+     <!-------------JS Task 12 countdown timer------------------------>
+    <div class="task">
+        <h1>12.Countdown Timer</h1>
+        <button onclick="countdown()">check it</button>
+        <div class="right">
+            <div id="result12"></div>
+        </div>
+    </div>
+    <hr>
+    <!-- JS Task 13 is js flie to another js -->
+    <!------------------Task 14 JS generate a random number--------------->
+    <div class="task">
+        <h1>14.Random Number</h1>
+        <div class="right">
+            <div id="result16"></div> 
+        </div>
+        <input type="text" id="num1">
+        <input type="text" id="num2"><br>
+        <button onclick="randomnumber()">check it</button>
+    </div>
+    <hr>
+    <!--------------------Task 15 JS Current URL-------------------------->
+    <div class="task">
+        <h1>15.current URL</h1>
+        <button onclick="curl()">Check it</button>
+        <div class="right">
+            <div id="result17"></div>
+        </div>
+    </div> 
+    <hr>
+    <!---------------JS Task 16 validation email----------------------->
+    <div class="task">
+        <h1>16.Email validation</h1>
+        <input type="text" id="emailid">
+        <button onclick="email()">check it</button>
+        <div class="right"></div>
+        <div id="result13"></div> 
+    </div>
+    <hr>
+    <!-- JS Task 17, 18 is stack and query -->
+    <!-------------JS Task 19 float  |  integer------------------------>
+    <div class="task">
+        <h1>19.Float | Integer</h1>
+        <div class="right">
+            <div id="result23"></div> 
+        </div>
+        <input type="text" id="infloat">
+        <button onclick="floatinteger()">check it</button>
+    </div>
+    <hr>
+    <!------------------Task 20 JS Image Dimenation--------------------->
+    <div class="task">
+        <h1>20.Image Dimensation</h1>
+        <img src="./image/bae.jpg" id="ram">
+        <div class="right">
+            <div id="result14"></div>
+            <div id="result15"></div>
+        </div>
+        <button onclick="ramkani()">check it</button>
+    </div>
+    <hr>
+    <!------------------Task 21 remove all white space--------------------->
+    <div class="task">
+        <h1>21.Removing the white space</h1>
+        <input type="text" id="whites">
+        <button onclick="clearwh()">Check it</button>
+        <div class="right">
+            <div id = "result19"></div>
+            <div id = "result019"></div>
+            <div id = "result0019"></div>
+        </div>
+    </div> 
+    <hr>
+    <!----------------Task 22 Js converting date into number--------------->
+    <div class="task">
+        <h1>22.Convert the Date into Number</h1>
+        <button onclick="daten()">Check it</button>
+        <div class="right">
+            <div id="result018"></div>   
+            <div id="result18"></div>
+        </div>
+    </div>
+    <hr>
+    <!------------Task 23 Encode a string in base64---------------------->
+    <div class="task">
+        <h1>23.Encode a string to Base64</h1>
+        <input type="text" id="encode">
+        <button onclick="encodestr()">Check it</button>
+        <div class="right">
+            <div id="result21"></div>
+            <div id="result021"></div>
+        </div>
+    </div>
+    <hr>
+     <!----------Task 24 break the paragraph with <br> tag------------------->
+     <div class="task">
+        <h1>24.Break the paragraph with break tag</h1>
+        <div class="right">
+            <div id="result020"></div>
+        </div>
+        <p>The paragraph for the break</p>
+        <div id="result20"></div>  
+        <button class="hi" onclick="breakie()">Check it</button>
+    </div>
+    <hr>
+    <!----------------Task 25 JS to get a file EXtension-------------------->
+    <div class="task">
+        <h1>25.File Extension</h1>
+        <div class="right">
+            <div id="result22"></div>
+        </div>
+        <input type="file" id="fileext">
+        <button onclick="fileextension()">Check it</button>
+    </div>
+    <!---------------Task 26 JS generate numbers and characterists------>
+    <div class="task">
+        <h1>26.generate numbers</h1>
+        <div class="right">
+            <div id="result26"></div>
+        </div>
+        <input type="text" id="GNC">
+        <button onclick="range()">Check it</button>
+    </div>
+    <div class="task">
+        <h1>PRIME Numbers</h1>
+        <div class="right">
+            <div id="dem"></div>
+        </div>
+        <button onclick="nextPrime()">submit</button>
+    </div>
+<h1>hii </h1>
+    <div id="love">dd</div>
+    <div id="demo"></div>
+
+    <p id="memi">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+</body>
+</html> 

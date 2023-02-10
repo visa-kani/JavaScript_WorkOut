@@ -1,0 +1,228 @@
+*{
+    margin:0 auto ;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* ----------------car image css-----------------------*/
+body{
+    width:100%;
+    background-image: url(/IMG/form\ image.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: fixed;
+}
+/* ----------------the black scroll css-----------------------*/
+.background{
+    width: 70%;
+    height:650px;
+    position: relative;
+    top: 100px;
+    float: right;
+    overflow: scroll;
+    background-color: hsla(0, 0%,0%,0.8);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+/* ----------------first orange header-----------------------*/
+.header{
+    width:85%;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+/* --------------detailes and address css---------------------*/ 
+h3{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.address{
+    z-index: 2;
+    width:85%
+}
+.address1{
+  padding-top: 50px;
+}
+.address:hover{
+    background-color:#1b7ace;
+}
+.text{
+    color:#fff;
+    font-size: 14px;
+}
+/* ----------------p tag contains the js-------------------*/
+p{
+    color:orangered;
+    font-size: 12px;
+    margin-top: -45px;
+    margin-left: 170px;
+    padding-bottom: 35px;
+}
+span{
+    font-weight: bold;
+    color:#fff;
+}
+/* -----------second orange header css-----------------*/
+.headcontent{
+    width:85%;
+    background-color: orangered;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+h3{
+    color:white;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+small{
+    color: #fff;
+    display: inline-block ;
+    
+}
+/* ----------------form css-----------------------*/
+.formt{
+    width:85%;
+    padding-top: 50px;
+}
+/* ----------------form input css-----------------------*/
+.form-control input{
+    width:30%;
+    border-radius: 5px;
+    border:2px solid gray;
+    outline: none;
+    margin-bottom: 45px; 
+    display: inline-block;
+}
+.form-control:hover{
+    background-color: #164794;
+}
+.form-control input[id=make]{
+    margin-top: 25px;
+}
+.form-control input[id=name], [id=contact] {
+    margin-left: 50px;
+} 
+.form-control input[id=dob]{
+    margin-left: 60px;
+}
+.form-control input[id=address]{
+    width:60%;
+}
+.form-control input[id=email]{
+    margin-left: 115px;
+}
+.form-control input[id=address]{
+    margin-left: 100px;
+}
+.form-control input[id=address1]{
+    margin-left: 165px;
+    width:60%
+}
+.form-control input[id=address2]{
+    margin-left: 165px;
+}
+.form-control input[id=emcontact]{
+    margin-left: 4px;
+}
+.form-control input[id=make]{
+    margin-left: 115px;
+}
+.form-control input[id=model]{
+    margin-left: 110px;
+}
+.form-control input[id=year]{
+    margin-left: 125px;
+}
+.form-control input[id=plate]{
+    margin-left: 53px;
+}
+.form-control input[id=color]{
+    margin-left: 85px;
+}
+.form-control input:focus{
+    border-color: blueviolet;
+}
+/* ----------------form label css-----------------------*/
+.form-control label{
+    font-size: 14px;
+    display: inline-block;
+}
+.form-control label[for=first], label[for=second], label[for=third]{
+    display:block;
+    color:white;
+    margin-left: 145px;
+    margin-top: -100px;
+    line-height: 100px;
+}
+/* -----------------third orange header----------------------*/
+.headcontent1{
+    width:100%;
+    background-color: orangered;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+/* ------------button tag--------------------*/
+.button{
+    border: 2px solid orangered;
+    font-size: 20px;
+    background-color: orangered;
+    padding: 15px 60px;
+    width:40%;
+    margin-left: 10%;    
+}
+.button2{
+    border: 2px solid orangered;
+    font-size: 20px;
+    background-color: orangered;
+    padding: 15px 60px;
+    width:40%;
+    margin-left: 10%;  
+    float:right;  
+}
+/* -----------------third orange header----------------------*/
+.headcontent4{
+    width:100%;
+    background-color: orangered;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+/* ------------css for js--------------------*/
+.form-control.correct input{
+    border-color:#159559;
+}
+.form-control.wrong input{
+    border-color:red;
+}
+.form-control i{
+    visibility: hidden;
+} 
+
+.form-control .correct i.fa-check-circle{
+       visibility: visible;
+       color:green;
+
+}
+.form-control.wrong i.fa-exclamation-circle{
+    visibility: visible;
+    color:red;
+
+}
+     
+
+
+
+	
+	
+

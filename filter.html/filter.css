@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Akaya Telivigala" ;
+}
+#myInput{
+    background-image: url(../IMG/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width:100%;
+    padding: 12px 20px 12px 60px;
+    border: 2px solid pink;
+    margin-bottom: 12px;
+    font-size: 25px;
+    outline: none;
+    border-radius: 20px;
+}
+#myInput:hover{
+ border: 3px solid rgb(251, 195, 251);
+}
+#tableuhh {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid purple;
+    font-size: 25px;
+    background-color:rgb(253, 231, 253);
+  }
+#tableuhh th, #tableuhh td{
+        text-align: center;
+        padding:15px;
+        color: purple;
+}
+#tableuhh tr {
+    border-bottom: 1px solid rgb(251, 195, 251);
+}
+  
+#tableuhh tr.header, #tableuhh tr:hover {
+    background-color: rgb(254, 193, 254);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Table</title>
+    <link rel="stylesheet" href="jsonform.css">
+    <script src="jsonform.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="jsonformjs.js"></script>
+</head>
+<body>
+    <div class="left">
+        <p id="showData"></p>
+    </div>
+    <div class="background">
+        <div class="content">
+            <h3>Registration form</h3>
+            <form class="form" id="form" onkeyup="formvalidation()" method="post" action="#">
+                <!----------------------------Form name--------------------------->
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Text here...">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message1"></small>
+                </div>
+                <!-------------------------Form DOB------------------------------->
+                <div class="form-control">
+                    <label for="dob">Date Of Birth:</label>
+                    <input type="date" id="dob" placeholder="Text here...">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message2"></small>
+                </div>
+                <!---------------------------Form Contact No.-------------------->
+                <div class="form-control">
+                    <label for="contact">Contant No.</label>
+                    <input type="tel" id="contact" placeholder="Text here...">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message3"></small>
+                </div>
+                <!--------------------------Form email--------------------------->
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="abc@gmail.com"> 
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message4"></small>                                                    
+                </div>
+                <!----------------------Form for ratio button------------------>
+                <div>
+                    <p>Select Gender</p>
+                    <div class="border">
+                      <label for="Male">Male</label>
+                      <input type="radio" id="male" name="hi" required>
+                      <label for="css">Female</label>
+                      <input type="radio" id="female" name="hi"> 
+                      <label for="javascript">Other</label>
+                      <input type="radio" id="other" name="hi">
+                    </div>  
+                </div>
+                <!-- -------------------------Form password------------------------>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Text here...">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message5"></small>
+                </div>
+                <!---------------------------Form address------------------------>
+                <div class="form-control">
+                    <label for="pincode">pincode</label>
+                    <input type="tel" id="pincode" placeholder="Text here...">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small id="message6"></small>
+                </div>
+                <!-----------------------------Form State Selection----------------->
+                <div class="form-control">
+                    <label for="State">Select State</label><br>
+                    <select id="State" name="State">
+                        <option></option>
+                        <option value="Kerala">kerala</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                        <option value="Goa">Goa</option>
+                    </select>   
+                </div>
+                <!---------------------------Form button tag------------------------>
+                <input type="button" id="able" value="submit" onclick="formvalidation() , jsontable()">  
+            </form>    
+        </div>  
+    </div>
+</body> 
+</html>

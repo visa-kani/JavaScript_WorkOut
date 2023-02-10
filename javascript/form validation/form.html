@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Race Registration Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script rel="stylesheet" src="./form.js"></script>
+</head>
+<body>
+    <div class="background">
+
+        <!----------------first header---------------->
+
+        <div class="header">
+            <h3>Car Race Registration Form</h3>
+        </div>
+
+        <!--------------Detailes & address--------------->
+
+        <div class="address">
+            <div class="text"><span>Location:</span> 1379 Horseshoe Lane, Philadelphia, PA, 19108 
+                <span>Race Dates:</span> October 1, 2019 / October 4, 2019 / October 7, 2019 
+                <span> Time:</span> 8:00AM - 5:00PM </div>
+        </div>
+        <div class="address address1">
+            <div class="text"> Please fill-up the form below to register to the event: </div>
+        </div>
+
+        <!----------------second header---------------->
+
+        <div class="headcontent">
+            <h3>Driver Information </h3>
+        </div>
+        <div class="formt">
+
+            <!----------------form starts here.....------------>
+
+            <div class="form-control">
+               <label for="name"><span>Driver's Name.</span></label>
+               <input type="text" id="name" placeholder="text here">
+               <input type="text" id="name1" placeholder="text here">
+               <i id="hi" class="fas fa-check-circle"></i>
+               <i id="hello"class="fas fa-exclamation-circle"></i>
+               <p id="message1"></p>
+            </div>
+
+             <!----------------form dob-------------------->
+
+            <div class="form-control">
+                <label for="dob"><span>Date Of Birth</span></label>
+                <input type="date" id="dob">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <p id="message2"></p>
+            </div>
+
+             <!----------------form phone number-------------------->
+
+            <div class="form-control">
+                <label for="contact"><span>Phone Number</span></label>
+                <input type="tel" id="contact" placeholder="Text here...">
+                <input type="tel" id="contact1">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <p id="message3"></p>
+            </div>
+
+             <!----------------form email-------------------->
+
+            <div class="form-control">
+                <label for="email"><span>E-mail</span></label>
+                <input type="email" id="email" placeholder="abc@gmail.com">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>   
+                <p id="message4"></p>                                               
+            </div>
+
+            <!----------------form address-------------------->
+
+            <div class="form-control">
+                <label for="address"><span>Address</span></label>
+                <input type="address" id="address">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <p id="message5"></p>
+                <input type="address" id="address1"> 
+                <input type="address" id="address2">
+                <input type="address1" id="address3">                                                        
+            </div>
+
+             <!----------------form emergency-------------------->
+
+            <div class="form-control">
+                <div class="form-control">
+                    <label for="emcontact"><span>Emergemcy Contact</span></label>
+                    <input type="tel" id="emcontact" placeholder="Text here...">
+                    <input type="tel" id="emcontact1">
+                </div>
+            </div>
+
+            <!----------------third header------------------->
+
+            <div class="headcontent1">
+                <h3>Car Details </h3>
+            </div>
+
+            <!----------------form make-------------------->
+
+            <div class="form-control">
+                <label for="make"><span>Make</span></label>
+                <input type="text" id="make" placeholder="text here">
+                <input type="text" id="make1" placeholder="text here">
+                <p id="message6"></p>
+             </div>
+
+             <!----------------form model-------------------->
+             <div class="form-control">
+                <label for="model"><span>Model</span></label>
+                <input type="text" id="model" placeholder="text here">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <p id="message7"></p>
+             </div>
+             <!----------------form year-------------------->
+
+             <div class="form-control">
+                <label for="year"><span>Year</span></label>
+                <input type="text" id="year" placeholder="text here">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+             </div>
+
+             <!----------------form car color-------------------->
+
+             <div class="form-control">
+                <label for="color"><span>Car Color</span></label>
+                <input type="text" id="color">
+             </div>
+
+            <!----------------form license plate-------------------->
+
+             <div class="form-control">
+                <label for="plate"><span>License Plate</span></label>
+                <input type="text" id="plate">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <p id="message8"></p>
+             </div>
+             <button onclick="formvalidation()"> submit </button>
+        </div>
+    </div>    
+</body>
+</html>
+    
+
+
+
+
+
+    
+    
+
+
